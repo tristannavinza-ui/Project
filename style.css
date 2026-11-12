@@ -5,6 +5,12 @@ body {
   color: #12478c;
 }
 .kartu-profil {
+  display: flex;
+  flex-direction: column; /* Membuat semua anak elemen di dalamnya berbaris ke bawah */
+  align-items: center;    /* (Opsional) Supaya posisinya berada di tengah secara rapi */
+  gap: 10px;              /* Memberikan jarak antar elemen agar tidak terlalu rapat */
+}
+.kartu-profil {
   width: 300px; /* <-- Tambahan titik koma di sini */
   margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan*/
   padding: 20px;
@@ -16,10 +22,4 @@ body {
 .kartu-profil img {
   width: 150px; /* <-- Tambahan titik koma di sini */
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna*/
-}
-.kartu-profil {
-  display: flex;
-  flex-direction: column; /* Membuat semua anak elemen di dalamnya berbaris ke bawah */
-  align-items: center;    /* (Opsional) Supaya posisinya berada di tengah secara rapi */
-  gap: 10px;              /* Memberikan jarak antar elemen agar tidak terlalu rapat */
 }
