@@ -2,10 +2,10 @@ body {
   background-color: #12478c; /* Warna biru tua */
   font-family: Arial, sans-serif; /* Jenis huruf tebal dan mudah dibaca*/
   font-style: italic;
-  color: #a6cdff; /* Warna biru muda terang*/
+  color: #12478c;
 }
 .kartu-profil {
-  width: 150px; /* <-- Tambahan titik koma di sini */
+  width: 2500px; /* <-- Tambahan titik koma di sini */
   margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan*/
   padding: 20px;
   background-color: white;
@@ -14,6 +14,6 @@ body {
   text-align: center; /* Menengah semua teks di dalam kartu*/
 }
 .kartu-profil img {
-  width: 75px; /* <-- Tambahan titik koma di sini */
+  width: 100px; /* <-- Tambahan titik koma di sini */
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna*/
 }
