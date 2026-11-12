@@ -4,9 +4,6 @@ body {
   font-style: italic;
   color: #12478c;
 }
-.grid-container {
-  gap: 50px;
-}
 .kartu-profil {
   width: 300px; /* <-- Tambahan titik koma di sini */
   margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan*/
