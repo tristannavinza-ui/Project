@@ -5,7 +5,7 @@ body {
   color: #12478c;
 }
 .kartu-profil {
-  width: 2500px; /* <-- Tambahan titik koma di sini */
+  width: 300px; /* <-- Tambahan titik koma di sini */
   margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan*/
   padding: 20px;
   background-color: white;
@@ -14,6 +14,6 @@ body {
   text-align: center; /* Menengah semua teks di dalam kartu*/
 }
 .kartu-profil img {
-  width: 100px; /* <-- Tambahan titik koma di sini */
+  width: 150px; /* <-- Tambahan titik koma di sini */
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna*/
 }
